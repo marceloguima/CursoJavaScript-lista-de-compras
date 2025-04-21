@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
 
@@ -28,5 +29,27 @@ Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no
 - Por fim clique em OK
 
 Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
+=======
+# 🛒 Lista de Compras Dinâmica com JavaScript
+
+Este é o meu projeto inicial de aplicação web de **lista de compras**, desenvolvido como parte do curso de **construção de páginas dinâmicas com JavaScript**.  
+O foco principal desta versão é permitir a **criação e visualização de uma lista de itens de forma dinâmica**.
+
+---
+
+## ✨ Funcionalidades
+
+- **Adicionar Itens:** Insira novos itens na lista de compras através de um campo de texto e um botão.
+- **Visualizar Data e Hora:** Cada item adicionado exibe automaticamente a data e a hora de inclusão.
+- **Marcar como Comprado:** Checkbox ao lado de cada item para indicar que a compra foi realizada.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML:** Estrutura dos elementos da interface (campo de entrada, botão e lista).
+- **CSS:** Estilização básica e organização visual dos elementos na tela.
+- **JavaScript:** Interatividade, adicionando novos itens dinamicamente e marcando itens como comprados.
+>>>>>>> e56ce95fc4db6fbbe4ae4988fd1cb3251ed2c3bc
 
 
