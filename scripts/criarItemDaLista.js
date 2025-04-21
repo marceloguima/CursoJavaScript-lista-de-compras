@@ -4,8 +4,11 @@ const mensagemDeErro = document.querySelector(".mensagem-erro");
 const som = document.getElementById("som");
 let contador = 0;
 
+
+
+
 export function criarItemDaLista() {
-   
+
     if (inputItem.value === "") {
         inputItem.style.border = "2px solid red";
         mensagemDeErro.style.display = "block";
@@ -36,16 +39,25 @@ inputCheckbox.addEventListener("click", function() {
     }
 )
 
-    containerItemDaLista.appendChild(inputCheckbox);
-    containerItemDaLista.appendChild(nomeItem);
+containerItemDaLista.appendChild(inputCheckbox);
+containerItemDaLista.appendChild(nomeItem);
 
-    itemDaLista.appendChild(containerItemDaLista)
-    const dataCompleta = gerarDiaDaSemana()
-   
-    const itemData = document.createElement("p");
-    itemData.innerText = dataCompleta;
-    itemData.classList.add("texto-data")
-    itemDaLista.appendChild(itemData)
+itemDaLista.appendChild(containerItemDaLista)
+const dataCompleta = gerarDiaDaSemana()
 
-   return itemDaLista;
+const itemData = document.createElement("p");
+itemData.innerText = dataCompleta;
+itemData.classList.add("texto-data")
+itemDaLista.appendChild(itemData)
+
+limparInput();
+
+return itemDaLista;
+
+}
+
+
+
+function limparInput() {
+    inputItem.value = "";
 }
